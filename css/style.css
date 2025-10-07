@@ -220,7 +220,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	color: #54d0dd;
 }
 .categories {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 ul.cat li {
@@ -228,7 +228,8 @@ ul.cat li {
 }
 ol.type li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 10px;
+	/* margin-top: 20px; */
 }
 ol.type li a {
 	background: #414a52;
@@ -244,6 +245,12 @@ ol.type li a:hover {
 	background: #54d0dd;
 	color: #414a52;
 }
+@media screen and (max-width: 767px) {
+	ol.type li {
+		margin-top: 50px;
+	}
+}
+
 .isotope-item {
 	z-index: 2
 }
